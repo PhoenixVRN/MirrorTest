@@ -6,6 +6,7 @@ namespace Mirror.Examples.Pong
     {
         public float speed = 30;
         public Rigidbody2D rigidbody2d;
+        public int _countScore;
 
         // need to use FixedUpdate for rigidbody
         void FixedUpdate()
